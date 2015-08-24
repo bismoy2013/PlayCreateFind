@@ -2,3 +2,20 @@ This is your new Play application
 =================================
 
 This file will be packaged with your application, when using `activator dist`.
+
+=================================
+
+This is not the whole Play framework CRUD Implementation, I have only included Create and Finding parts in the application.
+Assume that you are adding details of any particular person and then you want to find any person's details using
+their resepective phone numbers.
+
+Also phoneNumber is String here, not Integer and it's acting as a primary key .
+
+For an instance if phoneNumber is : ddf , then you can try this url : http://localhost:9000/phone/ddf
+and you will get this : [{"phone":"ddf","firstName":"gdfgdfgdfgd","lastName":"gdfgdfg","location":"gdgd"}]
+
+
+==================================
+
+Database : Mongodb, Morphia is being used for Mongo. Hope this small app will help you along the way in learning
+and developing more complex applications in Play frameworks/ JAVA 8.
