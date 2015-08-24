@@ -1,6 +1,8 @@
 This is your new Play application
 =================================
 
+Command to run this application : activator run
+
 This file will be packaged with your application, when using `activator dist`.
 
 =================================
